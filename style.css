@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; /* Color de fondo suave */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+#contador h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 2em;
+    color: #ff4500; /* Color del contador */
+}
+
+#time span {
+    font-weight: bold;
+}
+.oculto {
+    display: none;
+}
+
+#tarjeta {
+    background-color: #ffefd5;
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+#tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
